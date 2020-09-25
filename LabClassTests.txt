@@ -1,0 +1,19 @@
+co452Lab.numberOfStudents()
+    returned int 3
+student2.changeName("Emmee Mechanic");
+student2.getCredits()
+    returned int 20
+student2.getName()
+    returned String "Emmee Mechanic"
+student2.getStudentID()
+    returned String "100177512"
+student2.print();
+Emmee Mechanic, student ID: 100177512, credits: 20
+co452Lab.printList();
+Lab class Tuesday 29th September 2020
+Instructor: Nicholas Day   Room: G100
+Class list:
+Emmee Mechanic, student ID: 100177512, credits: 20
+Terry Blob, student ID: 10017352, credits: 22
+Ima Test, student ID: 10016241, credits: 33
+Number of students: 3
