@@ -1,19 +1,11 @@
-co452Lab.numberOfStudents()
-    returned int 3
-student2.changeName("Emmee Mechanic");
-student2.getCredits()
-    returned int 20
-student2.getName()
-    returned String "Emmee Mechanic"
-student2.getStudentID()
-    returned String "100177512"
-student2.print();
-Emmee Mechanic, student ID: 100177512, credits: 20
-co452Lab.printList();
-Lab class Tuesday 29th September 2020
-Instructor: Nicholas Day   Room: G100
-Class list:
-Emmee Mechanic, student ID: 100177512, credits: 20
-Terry Blob, student ID: 10017352, credits: 22
-Ima Test, student ID: 10016241, credits: 33
-Number of students: 3
+LabClass co452Lab = new LabClass(3);
+Student student1 = new Student("Phill Horrocks", "10010101");
+Student student2 = new Student("Terry Blob", "10019767");
+Student student3 = new Student("John Doe", "1862756243");
+co452lab.setTime("Tuesday 29th September 2020");
+co452lab.setRoom("G100");
+co452lab.setInstructor("Nicholas Day");
+student1.addCredits(20);
+student2.addCredits(20);
+student3.addCredits(20);
+student1.changeName("Mister Ed");
