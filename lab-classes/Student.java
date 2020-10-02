@@ -15,6 +15,9 @@ public class Student
     private String id;
     // the amount of credits for study taken so far
     private int credits;
+    // the course variable
+    private String courseName;
+    
     
     /**
      * Create a new student with a given name and ID number.
@@ -82,6 +85,6 @@ public class Student
      */
     public void print()
     {
-        System.out.println(name + ", student ID: " + id + ", credits: " + credits);
+        System.out.println("Course: " + courseName + ", " + name + ", student ID: " + id + ", credits: " + credits);
     }
 }
