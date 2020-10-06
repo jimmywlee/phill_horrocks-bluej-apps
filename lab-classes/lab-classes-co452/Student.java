@@ -14,7 +14,7 @@ public class Student
     private String id;
     // the amount of credits for study taken so far
     private int credits;
-    // student course details
+    // student course details - student inherits course
     private Course course;
 
     /**

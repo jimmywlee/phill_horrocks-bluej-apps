@@ -20,9 +20,13 @@ public class Course
         this.courseID = courseID;
     }
     
+    /**
+     * Print function to display the course details
+     */
+    
     public void print()
     {
-        System.out.println("course "+ courseName +" ID "+courseID);
+        System.out.println("course " + courseName + " ID " +courseID);
     }
     
 
