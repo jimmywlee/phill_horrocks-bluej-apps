@@ -1,0 +1,25 @@
+TASK 1
+------
+LabClass co452Lab = new LabClass(3);
+Student student1 = new Student("Phill Horrocks", "10010101");
+Student student2 = new Student("Terry Blob", "10019767");
+Student student3 = new Student("John Doe", "1862756243");
+co452lab.setTime("Tuesday 29th September 2020");
+co452lab.setRoom("G100");
+co452lab.setInstructor("Nicholas Day");
+student1.addCredits(20);
+student2.addCredits(20);
+student3.addCredits(20);
+student1.changeName("Mister Ed");
+
+TASK 2
+------
+LabClass labClass1 = new LabClass(1);
+Student student1 = new Student("Phill Horrocks", "100170355");
+Course course1 = new Course("Computing", "G400");
+student1.addCourse(course1);
+course1.print();
+course Computing ID G400
+student1.print();
+Phill Horrocks, student ID: 100170355, credits: 0
+course Computing ID G400
