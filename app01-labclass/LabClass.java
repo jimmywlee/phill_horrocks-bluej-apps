@@ -5,7 +5,8 @@ import java.util.*;
  * the time, room and participants of the lab, as well as the instructor's name.
  * 
  * @author Michael Kölling and David Barnes
- * @version 2011.07.31
+ * Modified by Phill Horrocks
+ * @version 5-10-2020
  */
 public class LabClass
 {
