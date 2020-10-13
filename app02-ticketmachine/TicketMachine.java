@@ -9,16 +9,38 @@
  * @author David J. Barnes and Michael Kölling
  * @version 2016.02.29
  * 
- * Modified by Student Name
+ * Modified by Phill Horrocks
  */
+
+import java.util.Date;
+
 public class TicketMachine
 {
+    
+    
+    public static final Ticket AYLESBURY_TICKET = new Ticket("Aylesbury", 220);
+    
+    public static final Ticket AMERSHAM_TICKET = new Ticket("Amersham", 300);
+    
+    public static final Ticket HIGHWYCOMBE_TICKET = new Ticket("Hight Wycombe", 330);
+    
     // The price of a ticket from this machine.
     private int price;
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    
+    // Define Aylesbury ticket
+    //private double aylesburyTicketPrice;
+    // private String destinationAylesbury;
+    // Define Amersham ticket 
+    private int amershamTicketPrice;
+    private String destinationAmersham;
+    // Define High Wycombe ticket
+    private int highWycombeTicketPrice;
+    private String destinationHighWycombe;
+      
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -26,10 +48,43 @@ public class TicketMachine
     public TicketMachine(int cost)
     {
         price = cost;
-        balance = 0;
-        total = 0;
+        balance = 0.00;
+        total = 0.00;
     }
 
+    /**
+     * Create a ticket to Aylesbury
+     */
+    
+    public void ticketAylesbury() {
+        
+        aylesburyTicketPrice = 2.20;
+        destinationAylesbury = "Aylesbury";
+        
+    }
+    
+    /**
+     * Create a ticket to Amersham
+     */
+    
+    public void ticketAmersham() {
+        
+        amershamTicketPrice = 3.00;
+        destinationAmersham = "Amersham";
+        
+    }
+    
+    /**
+     * Create a ticket to Aylesbury
+     */
+    
+    public void ticketHighWycombe() {
+        
+        highWycombeTicketPrice = 3.30;
+        destinationHighWycombe = "High Wycombe";
+        
+    }
+    
     /**
      * @Return The price of a ticket.
      */
@@ -51,7 +106,7 @@ public class TicketMachine
      * Receive an amount of money from a customer.
      * Check that the amount is sensible.
      */
-    public void insertMoney(int amount)
+    public void insertMoney(double amount)
     {
         if(amount > 0) 
         {
@@ -77,7 +132,7 @@ public class TicketMachine
             System.out.println("##################");
             System.out.println("# The BlueJ Line");
             System.out.println("# Ticket");
-            System.out.println("# " + price + " cents.");
+            System.out.println("# " + price + " Pounds.");
             System.out.println("##################");
             System.out.println();
 
@@ -89,7 +144,7 @@ public class TicketMachine
         else 
         {
             System.out.println("You must insert at least: " +
-                               (price - balance) + " more cents.");
+                               (price - balance) + " more pounds.");
                     
         }
     }
@@ -100,7 +155,7 @@ public class TicketMachine
      */
     public int refundBalance()
     {
-        int amountToRefund;
+        double amountToRefund;
         amountToRefund = balance;
         balance = 0;
         return amountToRefund;
