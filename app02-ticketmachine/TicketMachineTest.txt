@@ -1,0 +1,84 @@
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.addAmershamTicket();
+Amersham Ticket Added
+ticketMa1.insertCoinSwitch(10);
+10 inserted
+ticketMa1.printTicket();
+You must insert at least: 290 more pence.
+ticketMa1.insertCoinSwitch(220);
+I'm afraid 220 is not valid. Valid coins are 10, 20, 100 & 200. Please try again.
+ticketMa1.insertCoinSwitch(200);
+200 inserted
+ticketMa1.displayBalance();
+Your balance is: 210
+ticketMa1.insertCoinSwitch(100);
+100 inserted
+ticketMa1.printTicket();
+#########################
+# The BlueJ Line
+# Ticket
+# Destination: Amersham
+# Date:Fri Oct 16 23:05:45 BST 2020
+# Ticket Price: 300 pence.
+#########################
+
+Change due: 10
+
+
+
+
+ticketMa1.addAylesburyTicket();
+Alyesbury Ticket Added
+ticketMa1.insertCoinSwitch(200);
+200 inserted
+ticketMa1.insertCoinSwitch(200);
+200 inserted
+ticketMa1.printTicket();
+#########################
+# The BlueJ Line
+# Ticket
+# Destination: Aylesbury
+# Date:Fri Oct 16 23:05:45 BST 2020
+# Ticket Price: 220 pence.
+#########################
+
+Change due: 190
+
+
+
+
+
+
+ticketMa1.addHighWycombeTicket();
+High Wycombe Ticket Added
+ticketMa1.insertCoinSwitch(10);
+10 inserted
+ticketMa1.displayBalance();
+Your balance is: 200
+ticketMa1.insertCoinSwitch(100);
+100 inserted
+ticketMa1.printTicket();
+You must insert at least: 30 more pence.
+ticketMa1.insertCoinSwitch(20);
+20 inserted
+ticketMa1.insertCoinSwitch(10);
+10 inserted
+ticketMa1.printTicket();
+#########################
+# The BlueJ Line
+# Ticket
+# Destination: High Wycombe
+# Date:Fri Oct 16 23:05:45 BST 2020
+# Ticket Price: 330 pence.
+#########################
+
+Change due: 0
+
+
+
+
+
+
+ticketMa1.showAllInfo();
+Balance: 0
+Total: 850

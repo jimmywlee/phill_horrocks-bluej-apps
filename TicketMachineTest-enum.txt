@@ -1,0 +1,26 @@
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.insertCoin(Coin.P10);
+Cash in 10
+Your balance is: 10
+You just inserted: 10
+ticketMa1.insertCoin(Coin.P20);
+Cash in 20
+Your balance is: 30
+You just inserted: 20
+ticketMa1.insertCoin(Coin.P100);
+Cash in 100
+Your balance is: 130
+You just inserted: 100
+ticketMa1.insertCoin(Coin.P200);
+Cash in 200
+Your balance is: 330
+You just inserted: 200
+ticketMa1.addAmershamTicket();
+ticketMa1.printTicket();
+#########################
+# The BlueJ Line
+# Ticket
+# Destination: Amersham
+# Date:Fri Oct 16 12:54:34 BST 2020
+# 300 pence.
+#########################

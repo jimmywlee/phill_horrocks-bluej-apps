@@ -16,14 +16,6 @@ import java.util.Date;
 
 public class TicketMachine
 {
-    
-    
-    public static final Ticket AYLESBURY_TICKET = new Ticket("Aylesbury", 220);
-    
-    public static final Ticket AMERSHAM_TICKET = new Ticket("Amersham", 300);
-    
-    public static final Ticket HIGHWYCOMBE_TICKET = new Ticket("Hight Wycombe", 330);
-    
     // The price of a ticket from this machine.
     private int price;
     // The amount of money entered by a customer so far.
@@ -31,68 +23,59 @@ public class TicketMachine
     // The total amount of money collected by this machine.
     private int total;
     
-    // Define Aylesbury ticket
-    //private double aylesburyTicketPrice;
-    // private String destinationAylesbury;
-    // Define Amersham ticket 
-    private int amershamTicketPrice;
-    private String destinationAmersham;
-    // Define High Wycombe ticket
-    private int highWycombeTicketPrice;
-    private String destinationHighWycombe;
-      
+    private int change;
+    
+    // Setup the 3 tickets and assign their values
+    public static final Ticket AYLESBURY_TICKET = new Ticket("Aylesbury", 220);
+    public static final Ticket AMERSHAM_TICKET = new Ticket("Amersham", 300);
+    public static final Ticket HIGHWYCOMBE_TICKET = new Ticket("High Wycombe", 330);
+    
+    private Ticket selectedTicket;
 
+    private Date today = new Date();
+ 
     /**
-     * Create a machine that issues tickets of the given price.
-     */
-    public TicketMachine(int cost)
+    * Create a machine that issues tickets of the given price.
+    */
+    public TicketMachine()
     {
-        price = cost;
-        balance = 0.00;
-        total = 0.00;
+        selectedTicket = null; // Ensure no ticket is selected when initiated
+        balance = 0;
+        total = 0;
+        price = 0;
     }
 
     /**
-     * Create a ticket to Aylesbury
-     */
+    * Let's build the individual tickets: Aylesbury, Amersham, High Wycombe
+    * and assign them
+    */
     
-    public void ticketAylesbury() {
-        
-        aylesburyTicketPrice = 2.20;
-        destinationAylesbury = "Aylesbury";
-        
-    }
-    
-    /**
-     * Create a ticket to Amersham
-     */
-    
-    public void ticketAmersham() {
-        
-        amershamTicketPrice = 3.00;
-        destinationAmersham = "Amersham";
-        
-    }
-    
-    /**
-     * Create a ticket to Aylesbury
-     */
-    
-    public void ticketHighWycombe() {
-        
-        highWycombeTicketPrice = 3.30;
-        destinationHighWycombe = "High Wycombe";
-        
-    }
-    
-    /**
-     * @Return The price of a ticket.
-     */
-    public int getPrice()
+    public void addAylesburyTicket()
     {
-        return price;
+       selectedTicket = AYLESBURY_TICKET;
+       System.out.println("Alyesbury Ticket Added");
     }
-
+    
+    public void addAmershamTicket()
+    {
+       selectedTicket = AMERSHAM_TICKET;
+       System.out.println("Amersham Ticket Added");
+    }
+    
+    public void addHighWycombeTicket()
+    {
+       selectedTicket = HIGHWYCOMBE_TICKET;
+       System.out.println("High Wycombe Ticket Added");
+    }
+    
+    /**
+     * Display the ticket selected
+     */
+    public void showTicketSelected ()
+    {
+        System.out.println(selectedTicket.destination+" selected");
+    }
+    
     /**
      * Return The amount of money already inserted for the
      * next ticket.
@@ -101,24 +84,77 @@ public class TicketMachine
     {
         return balance;
     }
-
-    /**
-     * Receive an amount of money from a customer.
-     * Check that the amount is sensible.
-     */
-    public void insertMoney(double amount)
+    
+    // Manually update the balance for testing
+    public void balanceUpdate(int cash)
     {
-        if(amount > 0) 
-        {
-            balance = balance + amount;
-        }
-        else 
-        {
-            System.out.println("Use a positive amount rather than: " +
-                               amount);
+        
+        balance = balance + cash;
+        System.out.println("Cash in "+cash);
+        displayBalance();
+        
+    }
+    
+    public void displayBalance()
+    {
+        System.out.println("Your balance is: " + balance);
+    }
+    
+    // For diagnostics
+    public void showAllInfo()
+    {
+        System.out.println("Balance: "+balance);
+        System.out.println("Total: "+total);
+        System.out.println("Ticket Destination: "+selectedTicket.destination);
+        System.out.println("Ticket Price: "+selectedTicket.price);
+    }
+    
+    /**
+     * This is the Coin Enum method.
+     * I tried it to test if it works - it does (and documented)
+     * now commented out due to updated method
+     */
+    //balanceUpdate(selectCoin.getValue());
+    //System.out.println("You just inserted: " + selectCoin.getValue());
+    //}
+   
+    /**
+     * This is a 'switch' method. This works by testing
+     * values against a pre-determined list and breaking
+     * out of the switch if the value is matched. If a user
+     * passes an incorrect value in, they will get an error
+     * message.
+     */
+    
+    /**
+     * Please enter a coin value: 10, 20, 100 or 200
+     */    
+    public void insertCoinSwitch (int coinValue)
+    {
+        switch(coinValue){
+            case 10: balance = balance + coinValue;
+            System.out.println("10 inserted");
+            break;
+        
+            case 20: balance = balance + coinValue;
+            System.out.println("20 inserted");
+            break;
+        
+            case 100: balance = balance + coinValue;
+            System.out.println("100 inserted");
+            break;
+        
+            case 200: balance = balance + coinValue;
+            System.out.println("200 inserted");
+            break;
+        
+            //Error message
+            default:
+            System.out.println("I'm afraid "+coinValue+" is not valid. Valid coins are 10, 20, 100 & 200. Please try again.");
         }
     }
 
+    
     /**
      * Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
@@ -126,25 +162,29 @@ public class TicketMachine
      */
     public void printTicket()
     {
-        if(balance >= price) 
-        {
+        if(balance >= selectedTicket.price){
             // Simulate the printing of a ticket.
-            System.out.println("##################");
+            System.out.println("#########################");
             System.out.println("# The BlueJ Line");
             System.out.println("# Ticket");
-            System.out.println("# " + price + " Pounds.");
-            System.out.println("##################");
+            System.out.println("# Destination: " + selectedTicket.destination);
+            System.out.println("# Date:" + selectedTicket.currentDate);
+            System.out.println("# Ticket Price: " + selectedTicket.price + " pence.");
+            System.out.println("#########################");
             System.out.println();
+            
+            // print out any change due back
+            change = balance - selectedTicket.price;
+            System.out.println("Change due: " + change);
 
             // Update the total collected with the price.
-            total = total + price;
-            // Reduce the balance by the price.
-            balance = balance - price;
+            total = total + selectedTicket.price;
+            // Reduce the balance by the prince.
+            balance = balance - selectedTicket.price;
         }
-        else 
-        {
+        else{ 
             System.out.println("You must insert at least: " +
-                               (price - balance) + " more pounds.");
+                               (selectedTicket.price - balance) + " more pence.");
                     
         }
     }
@@ -155,9 +195,10 @@ public class TicketMachine
      */
     public int refundBalance()
     {
-        double amountToRefund;
+        int amountToRefund;
         amountToRefund = balance;
         balance = 0;
         return amountToRefund;
     }
 }
+        
