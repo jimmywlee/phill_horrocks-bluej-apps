@@ -1,15 +1,3 @@
-/**
- * TicketMachine models a ticket machine that issues
- * flat-fare tickets.
- * The price of a ticket is specified via the constructor.
- * Instances will check to ensure that a user only enters
- * sensible amounts of money, and will only print a ticket
- * if enough money has been input.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version 2011.07.31
- */
-
 import java.util.Date;
 
 public class TicketMachine
@@ -20,44 +8,42 @@ public class TicketMachine
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
-    // Get todays date
-    private Date today = new Date();
+    // The current destination on the ticket
+    private String destination;
     
     // Setup the 3 tickets  
     public static final Ticket AYLESBURY_TICKET = new Ticket("Aylesbury", 220);
     public static final Ticket AMERSHAM_TICKET = new Ticket("Amersham", 300);
     public static final Ticket HIGHWYCOMBE_TICKET = new Ticket("High Wycombe", 330);
     
-    private Ticket currentTicket;
-    
+    private Ticket selectedTicket;
+
+    private Date today = new Date();
+       
     /**
     * Create a machine that issues tickets of the given price.
     */
-    public TicketMachine(int cost)
+    public TicketMachine()
     {
-        currentTicket = null;
+        selectedTicket = null;
         balance = 0;
         total = 0;
     }
 
-    // Let's build the individual tickets
+    /**
+    * Let's build the individual tickets: Aylesbury, Amersham, High Wycombe
+    */
     
-    public void addAylesbury(){
-        
-       currentTicket = AYLESBURY_TICKET;
-        
+    public void addAylesburyTicket(){
+       selectedTicket = AYLESBURY_TICKET;
     }
     
-    public void addAmersham(){
-        
-       currentTicket = AMERSHAM_TICKET;
-        
+    public void addAmershamTicket(){
+       selectedTicket = AMERSHAM_TICKET;
     }
     
-    public void addHighWycombe(){
-        
-       currentTicket = HIGHWYCOMBE_TICKET;
-        
+    public void addHighWycombeTicket(){
+       selectedTicket = HIGHWYCOMBE_TICKET;
     }
     
     /**
@@ -76,7 +62,7 @@ public class TicketMachine
     {
         return balance;
     }
-
+    
     /**
      * Receive an amount of money from a customer.
      * Check that the amount is sensible.
@@ -92,6 +78,20 @@ public class TicketMachine
         }
     }
 
+    public void getDestination(){
+    
+    }
+    
+    public void getTicketDate(){
+        
+    }
+    
+    public void getTicketPrice(){
+        
+    }
+    
+    
+    
     public void balanceUpdate(int cash){
         
         balance = balance + cash;
@@ -101,63 +101,55 @@ public class TicketMachine
     }
     
     public void displayBalance(){
-        
         System.out.println("Your balance is: " + balance);
-        
     }
     
-    public void insert10(){
-     
+    public void insert10Pence(){
         balanceUpdate(10);
-        
     }
     
-    public void insert20(){
-     
+    public void insert20Pence(){
         balanceUpdate(20);
-        
     }
     
-    public void insert100(){
-     
+    public void insert100Pence(){
         balanceUpdate(100);
-        
     }
     
-    public void insert200(){
-     
+    public void insert200Pence(){
         balanceUpdate(200);
-        
     }
     
-    // Switch method
-    public void insertCoinAgain(int value){
-        
-       switch(value){
-           
-           case 10: balanceUpdate(value);
-           break;
-           case 20: balanceUpdate(value);
-           break;
-           case 100: balanceUpdate(value);
-           break;
-           case 200: balanceUpdate(value);
-           break;
-           
-           default:
-                System.out.println(value+" is not a valid coin");
-        
+    /**
+    * public void insertCoinAgain(int value){
+    *   
+    *  switch(value){
+    *      
+    *      case 10: balanceUpdate(value);
+    *      break;
+    *      case 20: balanceUpdate(value);
+    *      break;
+    *      case 100: balanceUpdate(value);
+    *      break;
+    *      case 200: balanceUpdate(value);
+    *      break;
+    *      
+    *      default:
+    *           System.out.println(value+" is not a valid coin");
+    *   
+    * }
+    *
+    *
+    * }
+    * 
+    /*
+    // Insert coin - call the coin
+    public void insertCoin(Coin selectCoin){
+    balanceUpdate(selectCoin.getValue());
+    System.out.println("You just inserted: " + selectCoin.getValue());
     }
-    
-}
-    
-// Insert coin - call the coin
-//    public void insertCoin(Coin aCoin){
-//    balanceUpdate(aCoin.getValue());
-//    System.out.println("You just inserted: " + aCoin.getValue());
-//    }
-    
-    
+    */
+   
     /**
      * Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
@@ -167,13 +159,13 @@ public class TicketMachine
     {
         if(balance >= price) {
             // Simulate the printing of a ticket.
-            System.out.println("##################");
+            System.out.println("#########################");
             System.out.println("# The BlueJ Line");
             System.out.println("# Ticket");
-            System.out.println("# Destination: "+ currentTicket);
+            System.out.println("# Destination: ");
             System.out.println("# Date:" + today);
-            System.out.println("# " + price + " pounds.");
-            System.out.println("##################");
+            System.out.println("# " + price + " pence.");
+            System.out.println("#########################");
             System.out.println();
 
             // Update the total collected with the price.

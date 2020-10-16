@@ -7,7 +7,6 @@ import java.util.Date;
  */
 public class Ticket
 {
-    // instance variables
     private int price;
     private String destination;
     private Date currentDate = new Date();
@@ -16,18 +15,19 @@ public class Ticket
      * Construct the ticket
      */
     
-    public Ticket (String destination, int price){
-        //Initialise
+    public Ticket(String destination, int price)
+    {
         this.destination = destination;
         this.price = price;
     }
-    
-    /**
-     * Constructor for objects of class Ticket
-     */
-    public Ticket(){
-    
 
+    public String getDestination()
+    {
+        return destination;
     }
-
+    
+    public int getTicketPrice()
+    {
+         return price;
+    }
 }
