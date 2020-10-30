@@ -3,19 +3,40 @@
  * Write a description of class Module here.
  *
  * @author Phill Horrocks
- * @version 23-10-20 0.1
+ * @version 0.1
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    // Setup the variables to be used in the Module
+    
+    public String moduleTitle;
+    public String moduleCode;
+    public int moduleMark;
+    
     /**
-     * Constructor for objects of class Module
+     * Module constructor
      */
-    public Module()
+    
+    public Module(String title, String code)
     {
-        // initialise instance variables
-        x = 0;
+        moduleTitle = title;
+        moduleCode = code;
+        moduleMark = 0;
+    }
+    
+    /**
+     * Add a mark to module - Testing Method
+     */
+    
+    public void giveMark(int mark)
+    {
+        if ((mark >= 0) && (mark <= 100))
+        {
+            moduleMark = mark;
+        } else
+        {
+            System.out.println("Please supply a valid mark between 0 and 100");
+        }
+        
     }
 }

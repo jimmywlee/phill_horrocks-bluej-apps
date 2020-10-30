@@ -1,25 +1,13 @@
-<<<<<<< HEAD
 
 /**
  * Enumeration class Grades - write a description of the enum class here
  *
- * @author (your name here)
- * @version (version number or date here)
+ * @author Phill Horrocks
+ * @version 0.1
  */
-public enum Grades
-{
-    X, F, D, C, B, A
-}
-=======
 
-/**
- * Enumeration class Grades - write a description of the enum class here
- *
- * @author (your name here)
- * @version (version number or date here)
- */
 public enum Grades
 {
+    // Lookup for grades
     X, F, D, C, B, A
 }
->>>>>>> ca5bec6d65adbfa967a964ce218568ffd78ae732
