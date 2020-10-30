@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: App03 StudentGrades
+PURPOSE OF PROJECT: Calculate grades for a student in 4 modules on a course
+VERSION or DATE: 30/10/2020
+HOW TO START THIS PROJECT: Add student object, add course object then enrole student on the course
+AUTHORS: Phill Horrocks
+USER INSTRUCTIONS: TBD
