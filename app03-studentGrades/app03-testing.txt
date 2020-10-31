@@ -1,0 +1,19 @@
+Student student1 = new Student("Phill Horrocks", "100170355");
+Course course1 = new Course("G400", "Computing BSc");
+student1.enrolOnCourse(course1);
+course1.addMark(20, 1);
+course1.addMark(26, 2);
+The marks awarded must be less than 25
+course1.addMark(22, 2);
+course1.addMark(15, 3);
+course1.addMark(25, 4);
+student1.printStudentDetails();
+Phill Horrocks, student ID: 100170355
+course1.print();
+Course G400 - Computing BSc
+Module: Programming .Code: ABC001 .Mark: 20
+Module: Web Design .Code: ABC002    Mark: 22
+Module: Digital Technology .Code: ABC003 .Mark: 15
+Module: Computer Architecture .Code: ABC004 .Mark: 25
+Total Mark: 82
+Final Grade:A
