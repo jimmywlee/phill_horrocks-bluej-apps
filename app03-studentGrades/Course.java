@@ -19,8 +19,8 @@ public class Course
     private Module moduleDigitalTech;
     private Module moduleCompArchitecture;    
     
-    // Setup the finalGrade variables and reference the enumeration class
-    private int finalMark;
+    // Setup the mark variable
+    private int totalMark;
     
     /**
      * Constructor for objects of class Course
@@ -106,13 +106,13 @@ public class Course
         }
     
     /**
-     * Work out the total marks awarded for all modules and add to finalMark
+     * Work out the total marks awarded for all modules and add to totalMark
      */
     
     public int sumOfMarks()
     {
-        finalMark = moduleProgramming.moduleMark + moduleWeb.moduleMark +moduleDigitalTech.moduleMark + moduleCompArchitecture.moduleMark;
-        return finalMark;
+        totalMark = moduleProgramming.moduleMark + moduleWeb.moduleMark +moduleDigitalTech.moduleMark + moduleCompArchitecture.moduleMark;
+        return totalMark;
     }
         
     /**
@@ -138,7 +138,7 @@ public class Course
         System.out.println("Total Mark: " + sumOfMarks());
         
         // Convert the total marks into a grade character
-        System.out.println("Final Grade:" + convertToGradeChar(finalMark));
+        System.out.println("Final Grade:" + convertToGradeChar(totalMark));
         
     }
 }
