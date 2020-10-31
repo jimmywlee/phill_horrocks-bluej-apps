@@ -26,6 +26,10 @@ public class Module
     
     /**
      * Add a mark to module - Testing Method
+     * This was to manually test conditional logic to check marks entered
+     * could not exceed 100
+     * 
+     * It works, so this is now redundant
      */
     
     public void giveMark(int mark)

@@ -15,7 +15,7 @@ public class Student
     private String name;
     // the student ID
     private String id;
-    // the amount of credits for study taken so far
+    // the amount of credits for study taken so far -- unused
     private int credits;
     // create a course object from Course class
     private Course course;
@@ -86,7 +86,7 @@ public class Student
      */
     public void printStudentDetails()
     {
-        System.out.println(name + ", student ID: " + id + ", credits: " + credits);
+        System.out.println("ID: " + id + " Name: " + name);
     }
 
     public void enrolOnCourse(Course course)
