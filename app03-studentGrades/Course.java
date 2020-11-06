@@ -21,6 +21,7 @@ public class Course
     
     // Setup the mark variable
     private int totalMark;
+    private int meanMark;
     
     /**
      * Constructor for objects of class Course
@@ -39,7 +40,7 @@ public class Course
         moduleDigitalTech = new Module("Digital Technology", "ABC003");
         moduleCompArchitecture = new Module("Computer Architecture", "ABC004");
     }
-  
+    
     /**
      * Add marks to the modules - Please enter:
      * 1 = Programming
@@ -47,7 +48,7 @@ public class Course
      * 3 = Digital Technology
      * 4 = Computer Architecture
      * 
-     * NOTE: A maximum of 25 marks can be awarded for each module
+     * NOTE: A maximum of 100 marks can be awarded for each module
      */
     
     // Get the user to select a module number then add the user-selected mark to that module.
@@ -56,25 +57,25 @@ public class Course
     
     public void addMark(int mark, int moduleNumber)
     {
-        if((moduleNumber == 1) && (mark <=25))
+        if((moduleNumber == 1) && (mark <=100))
         {
             moduleProgramming.giveMark(mark);
         }
-        else if((moduleNumber == 2) && (mark <=25))
+        else if((moduleNumber == 2) && (mark <=100))
         {
             moduleWeb.giveMark(mark);
         }
-        else if((moduleNumber == 3) && (mark <=25))
+        else if((moduleNumber == 3) && (mark <=100))
         {
             moduleDigitalTech.giveMark(mark);
         }
-        else if((moduleNumber == 4) && (mark <=25))
+        else if((moduleNumber == 4) && (mark <=100))
         {
             moduleCompArchitecture.giveMark(mark);
         }
         else
         {
-            System.out.println("The marks awarded must be less than 25");
+            System.out.println("The marks awarded must be less than 100");
         }
     }
     
@@ -85,7 +86,7 @@ public class Course
     
     public Grades convertToGradeChar(int mark)
     {
-        if ((mark >=0) && (mark <40))
+        if ((mark>=0) && (mark <40))
         {      
             return Grades.F;
         } else if ((mark >= 40) && (mark <= 49))
@@ -114,7 +115,18 @@ public class Course
         totalMark = moduleProgramming.moduleMark + moduleWeb.moduleMark +moduleDigitalTech.moduleMark + moduleCompArchitecture.moduleMark;
         return totalMark;
     }
-        
+    
+    /**
+     * Work out the mean of the marks awarded
+     */
+    
+    public int getMeanMarks()
+    {
+        meanMark = sumOfMarks() / 4;
+        return meanMark;
+    }
+    
+    
     /**
      * Prints out the details including the course, all four modules and
      * the marks for each module, the total marks for all modules and
@@ -122,23 +134,37 @@ public class Course
      */
     public void print()
     {
-        // First, call the sumOfMarks method to work out the total marks
-        sumOfMarks();
-        
         // Print out the course number and title
         System.out.println("Course " + codeNo + " - " + title);
         
         // Print out the four individual module details along with their marks awarded
-        System.out.println("Module: " + moduleProgramming.moduleTitle + " .Code: " + moduleProgramming.moduleCode + " .Mark: " + moduleProgramming.moduleMark);
-        System.out.println("Module: " + moduleWeb.moduleTitle + " .Code: "+ moduleWeb.moduleCode + "    Mark: " + moduleWeb.moduleMark);
-        System.out.println("Module: " + moduleDigitalTech.moduleTitle + " .Code: " + moduleDigitalTech.moduleCode + " .Mark: " + moduleDigitalTech.moduleMark);
-        System.out.println("Module: " + moduleCompArchitecture.moduleTitle + " .Code: " + moduleCompArchitecture.moduleCode + " .Mark: " + moduleCompArchitecture.moduleMark);
+        System.out.println(
+            "Module: " + moduleProgramming.moduleTitle +
+            "\tCode: " + moduleProgramming.moduleCode + 
+            "\tMark: " + moduleProgramming.moduleMark);
+        
+        System.out.println(
+            "Module: " + moduleWeb.moduleTitle +
+            "\tCode: "+ moduleWeb.moduleCode + 
+            "\tMark: "+ moduleWeb.moduleMark);
+        
+        System.out.println(
+            "Module: " + moduleDigitalTech.moduleTitle + 
+            "\tCode: " + moduleDigitalTech.moduleCode + 
+            "\tMark: " + moduleDigitalTech.moduleMark);
+        
+        System.out.println(
+            "Module: " + moduleCompArchitecture.moduleTitle + 
+            "\tCode: " + moduleCompArchitecture.moduleCode + 
+            "\tMark: " + moduleCompArchitecture.moduleMark);
         
         // Print the total marks for all four modules
         System.out.println("Total Mark: " + sumOfMarks());
         
-        // Convert the total marks into a grade character
-        System.out.println("Final Grade:" + convertToGradeChar(totalMark));
+        // Print the mean marks
+        System.out.println("Total mean marks: " + getMeanMarks());
         
+        // Convert the total marks into a grade character
+        System.out.println("Final Grade:" + convertToGradeChar(meanMark));
     }
 }
