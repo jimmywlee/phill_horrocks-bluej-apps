@@ -112,7 +112,10 @@ public class Course
     
     public int sumOfMarks()
     {
-        totalMark = moduleProgramming.moduleMark + moduleWeb.moduleMark +moduleDigitalTech.moduleMark + moduleCompArchitecture.moduleMark;
+        totalMark = moduleProgramming.moduleMark + 
+        moduleWeb.moduleMark + 
+        moduleDigitalTech.moduleMark + 
+        moduleCompArchitecture.moduleMark;
         return totalMark;
     }
     
