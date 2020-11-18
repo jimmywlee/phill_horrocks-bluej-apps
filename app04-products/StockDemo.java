@@ -14,13 +14,12 @@ public class StockDemo
     private StockManager manager;
 
     /**
-     * Create a StockManager and populate it with a few
-     * sample products.
+     * Create a StockManager and populate it with ten
+     * products.
      */
     public StockDemo(StockManager manager)
     {
         this.manager = manager;
-        
         manager.addProduct(new Product(101, "Samsung Galaxy S20"));
         manager.addProduct(new Product(102, "Samsung Galaxy S10 5G"));
         manager.addProduct(new Product(103, "Google Pixel 5"));
@@ -32,41 +31,21 @@ public class StockDemo
         manager.addProduct(new Product(109, "Apple iPhone 12 Pro"));
         manager.addProduct(new Product(110, "Apple iPhone 12 Pro Max"));        
     }
-    
+        
     /**
      * Provide a very simple demonstration of how a StockManager
      * might be used. Details of one product are shown, the
      * product is restocked, and then the details are shown again.
      */
-    public void demoDeliverProduct()
+    private void demoDeliverProducts()
     {
-        // Show details of all of the products before delivery.
-        manager.printProduct(101);
-        
-        // Take delivery of 5 items of one of the products.
-        manager.delivery(101, 5);
-        
-        // Show the list of all products after delivery
-        manager.printProduct(101);
-    }
-    
-    /**
-     * Sell one of the given item.
-     * Show the before and after status of the product.
-     * @param id The ID of the product being sold.
-     */
-    public void demoSellProduct(int id)
-    {
-        Product product = getProduct(id);
-        
-        if(product != null) 
+        for(int id = 101; id < 110; id++)
         {
-            manager.printProduct(id);
-            product.sellOne();
-            manager.printProduct(id);
+            manager.deliverProduct(id,10);
         }
+
     }
-    
+      
     /**
      * Get the product with the given id from the manager.
      * An error message is printed if there is no match.
@@ -84,4 +63,28 @@ public class StockDemo
         }
         return product;
     }
+    
+    /**
+     * Demo test creation
+     * 
+     */
+    
+    public void createDemo()
+    {
+        // Display details of all the products
+        manager.printAllProducts();   
+        
+        System.out.println("DELIVER 10 PRODUCTS");
+        System.out.println("-------------------");
+        System.out.println();
+        
+        // Deliver 10 lines of products
+        demoDeliverProducts();
+        
+        // Print all product details
+        manager.printAllProducts();
+        
+        
+    }
+    
 }
