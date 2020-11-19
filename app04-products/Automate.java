@@ -13,7 +13,7 @@ public class Automate
      */
     public static void main()
     {
-        //StockManager stock = new StockManager();
-        //StockDemo demo = new StockDemo(stock);
+        StockManager stock = new StockManager();
+        StockDemo demo = new StockDemo(stock);
     }
 }

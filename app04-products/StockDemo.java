@@ -1,3 +1,6 @@
+// Use to setup the random number generator for the stock workings
+import java.util.Random;
+
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
@@ -10,28 +13,48 @@
  */
 public class StockDemo
 {
+    // Setup the limits for the 10 demo products
+    public static final int FIRST_ITEM_ID = 101;
+    public static final int LAST_ITEM_ID = 110;
+    
     // The stock manager.
     private StockManager manager;
+    private Random random;
 
     /**
      * Create a StockManager and populate it with ten
      * products.
+     * NOTE: Need to work on this to enable any number of products
+     * use counter?
+     * 
      */
     public StockDemo(StockManager manager)
     {
         this.manager = manager;
-        manager.addProduct(new Product(101, "Samsung Galaxy S20"));
-        manager.addProduct(new Product(102, "Samsung Galaxy S10 5G"));
-        manager.addProduct(new Product(103, "Google Pixel 5"));
-        manager.addProduct(new Product(104, "Google Pixel 4A"));
-        manager.addProduct(new Product(105, "OnePlus 1"));
-        manager.addProduct(new Product(106, "Huawei Big Phone 3"));
-        manager.addProduct(new Product(107, "Apple iPhone 12 Mini"));
-        manager.addProduct(new Product(108, "Apple iPhone 12"));
-        manager.addProduct(new Product(109, "Apple iPhone 12 Pro"));
-        manager.addProduct(new Product(110, "Apple iPhone 12 Pro Max"));        
-    }
         
+        random = new Random();
+        int id = FIRST_ITEM_ID;
+        manager.addProduct(new Product(id, "Samsung Galaxy S20"));
+        id++;
+        manager.addProduct(new Product(id, "Samsung Galaxy S10 5G"));
+        id++;
+        manager.addProduct(new Product(id, "Google Pixel 5"));
+        id++;
+        manager.addProduct(new Product(id, "Google Pixel 4A"));
+        id++;
+        manager.addProduct(new Product(id, "OnePlus 1"));
+        id++;
+        manager.addProduct(new Product(id, "Huawei Big Phone 3"));
+        id++;
+        manager.addProduct(new Product(id, "Apple iPhone 12 Mini"));
+        id++;
+        manager.addProduct(new Product(id, "Apple iPhone 12"));
+        id++;
+        manager.addProduct(new Product(id, "Aple iPhone 12 Pro"));
+        id++;
+        manager.addProduct(new Product(id, "Apple iPhone 12 Pro Max"));        
+    }   
+    
     /**
      * Provide a very simple demonstration of how a StockManager
      * might be used. Details of one product are shown, the
@@ -39,11 +62,11 @@ public class StockDemo
      */
     private void demoDeliverProducts()
     {
-        for(int id = 101; id < 110; id++)
+        for(int id = FIRST_ITEM_ID; id <= LAST_ITEM_ID; id++)
         {
-            manager.deliverProduct(id,10);
+            int qty = random.nextInt(5) + 1;
+            manager.receiveProduct(id, qty);
         }
-
     }
       
     /**
@@ -58,10 +81,23 @@ public class StockDemo
         
         if(product == null) 
         {
-            System.out.println("Product with ID: " + id +
-                               " is not recognised.");
+            System.out.println("Product with ID: " + id + " is not recognised.");
         }
         return product;
+    }
+    
+    /**
+     * Sell multiple items
+     */
+    private void demoSellProducts()
+    {
+        manager.printAllProducts();
+        for(int id = FIRST_ITEM_ID; id <=  LAST_ITEM_ID; id++)
+        {
+            int qty=random.nextInt(4) + 1;
+            manager.sellMultipleItems(id, qty);
+        }
+        manager.printAllProducts();
     }
     
     /**
@@ -72,19 +108,29 @@ public class StockDemo
     public void createDemo()
     {
         // Display details of all the products
-        manager.printAllProducts();   
+        manager.printAllProducts();
         
-        System.out.println("DELIVER 10 PRODUCTS");
-        System.out.println("-------------------");
-        System.out.println();
-        
-        // Deliver 10 lines of products
+        // Deliver sample products and print
         demoDeliverProducts();
+        manager.printAllProducts();
+        
+        // Sell multiple items
+        demoSellProducts();
+        
+        // rename an incorrectly spelled product
+        manager.renameProduct(108, "Apple iPhone 12 Pro");
+        
+        // Remove a product from the list
+        manager.removeProduct(105);
+        
+        // Search for all products containing a keyword
+        manager.findByKeyword("Google");
         
         // Print all product details
         manager.printAllProducts();
         
-        
+        // Show items low on stock
+        manager.printLowStockProducts(2);
     }
     
 }

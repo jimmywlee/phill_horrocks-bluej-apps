@@ -60,21 +60,29 @@ public class Product
     }
 
     /**
+     * Change item name
+     */
+    public void setName(String newName)
+    {
+        name = newName;
+    }
+    
+    /**
      * Restock with the given amount of this product.
      * The current quantity is incremented by the given amount.
      * @param amount The number of new items added to the stock.
      *               This must be greater than zero.
      */
-    public void increaseQuantity(int amount)
+    public void increaseQuantity(int qty)
     {
-        if(amount > 0) 
+        if(qty > 0) 
         {
-            quantity += amount;
+            quantity += qty;
         }
         else 
         {
-            System.out.println("Attempt to restock " + name +
-                               " with a non-positive amount: " + amount);
+            // System.out.println("Attempt to restock " + name + " with a non-positive amount: " + qty);
+            System.out.println("Cannot re-stock with 0 qty");
         }
     }
 
@@ -82,16 +90,18 @@ public class Product
      * Sell one of these products.
      * An error is reported if there appears to be no stock.
      */
-    public void sellOne()
+    public boolean sellOne()
     {
         if(quantity > 0) 
         {
             quantity--;
+            return true;
         }
         else 
         {
             System.out.println(
-                "Attempt to sell an out of stock item: " + name);
+                "Attempting to sell an out of stock item: " + name);
+                return false;
         }
     }
 }

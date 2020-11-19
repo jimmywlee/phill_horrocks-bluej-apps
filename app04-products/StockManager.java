@@ -12,7 +12,8 @@ import java.util.Date;
 public class StockManager
 {
     Date date = new Date(); // This object contains the current date value
-    // A list of the products.
+    
+    // Array list of all the products
     private ArrayList<Product> stock;
 
     /**
@@ -33,18 +34,62 @@ public class StockManager
     }
     
     /**
+     * Remove a product
+     * NOTE: check to see if the item exists first!
+     */
+    public void removeProduct(int id)
+    {
+        Product product = findProduct(id);
+        if(product == null)
+        {
+            System.out.println("ID: "+id+" not found");
+        }
+        else
+        {
+            stock.remove(product);
+            System.out.println("ID: "+id+" found and removed");
+        }
+        
+    }
+    
+    /**
+     * Rename a product
+     * Check it exsists first, if not, throw an error
+     */
+    public void renameProduct(int id, String newItemName)
+    {
+        Product product = findProduct(id);
+        if(product == null)
+        {
+            System.out.println("ID: "+id+" not found, please try again");
+        }
+        else
+        {
+            System.out.println(product);
+            System.out.println("Item renamed ");
+            product.setName(newItemName);
+            
+            System.out.println(newItemName);
+            System.out.println(product);
+        }
+
+    }
+    
+    
+    /**
      * Receive a delivery of a particular product.
      * Increase the quantity of the product by the given amount.
-     * @param id The ID of the product.
-     * @param amount The amount to increase the quantity by.
+     * Check product exists- if yes then deliver, else throw error.
      */
-    public void deliverProduct(int id, int qty)
+    public void receiveProduct(int id, int qty)
     {
         Product product = findProduct(id);
         if(product !=null)
         {
+            System.out.println("\n" + product);
             product.increaseQuantity(qty);
-            System.out.println("Delivered: " + product);
+            System.out.println("\t## DELIVERED " + qty + "##");
+            System.out.println(product + "\n");
         }
         else
         {
@@ -56,7 +101,7 @@ public class StockManager
     /**
      * Try to find a product in the stock with the given id.
      * @return The identified product, or null if there is none
-     *         with a matching ID.
+     * with a matching ID.
      */
     public Product findProduct(int id)
     {
@@ -72,22 +117,27 @@ public class StockManager
     }
     
     /**
-     * Try to find a prouct by its name
+     * Try to find a prouct by its name or part of its name.
+     * Loop through all items in the array.
      */
-    public Product findByKeyword(String productName)
+    public void findByKeyword(String searchText)
     {
+        int counter = 0;
+        System.out.println();
+        System.out.println("Finding " + searchText + " in product list...");
+        
         for (Product product : stock)
         {
-            if (product.getName().contains(productName))
+            if (product.getName().contains(searchText))
             {
-                return product;
-            }
-            else
-            {
-                System.out.println("** PRODUCT NOT FOUND **");
+                System.out.println(product);
+                counter++;
             }
         }
-        return null;
+        
+        System.out.println();
+        System.out.println("Number of items found: "+ counter + " with '"+searchText+"' in the product name");
+        System.out.println();
     }
     
     /**
@@ -110,29 +160,32 @@ public class StockManager
     public void printProduct(int id)
     {
         Product product = findProduct(id);
-        
         if(product != null) 
         {
             System.out.println(product.toString());
         }
     }
-    
+      
     /**
-     * Sell one of the given item.
-     * Show the before and after status of the product.
-     * @param id The ID of the product being sold.
+     * Sell multiple products
      */
-    public void demoSellProduct(int id)
+    public void sellMultipleItems(int id, int qty)
     {
         Product product = findProduct(id);
-        
-        if(product != null) 
+        if(product != null)
         {
-            System.out.println("Current stock: ");
+            System.out.println("Sold qty: "+qty);
             printProduct(id);
-            product.sellOne();
-            System.out.println("New stock: ");
-            printProduct(id);
+            int qtySold = qty;
+            if(qtySold > product.getQuantity())
+            {
+                qtySold=product.getQuantity();
+            }
+            for(int counter = 0; counter < qtySold; counter++)
+            {
+                product.sellOne();
+            }
+            //System.out.println("Number sold: " + qtySold);
         }
     }
     
@@ -143,7 +196,8 @@ public class StockManager
     public void printAllProducts()
     {
         System.out.println();
-        System.out.println("Current Stock - correct as at: " + date);
+        System.out.println("Current Stock");
+        System.out.println(date);
         System.out.println();
         System.out.println("Phill Horrocks' Stock List");
         System.out.println("=*==*==*==*==*==*==*==*==*");
@@ -155,4 +209,49 @@ public class StockManager
         }
         System.out.println();
     }
+    
+    /**
+     * Show item details
+     */
+    
+    public void printProcuct(int id)
+    {
+        Product product = findProduct(id);
+        if(product != null)
+        {
+            System.out.println(product);
+        }
+        else 
+        {
+            System.out.println("Error");
+        }
+        
+    }
+    
+        /**
+    *  Print all product with low quantity
+    */
+    public ArrayList<Product> printLowStockProducts(int minimum)
+    {
+        ArrayList<Product> lowStock = new ArrayList<Product>();
+        int count = 0;
+        
+        System.out.println(" Printing all low stock products");
+        System.out.println();
+        
+        for(Product product : stock)
+        {
+            if(product.getQuantity() <= minimum)
+            {
+                count++;
+                lowStock.add(product);
+                System.out.println(product);
+            }
+        }
+        
+        System.out.println();
+        System.out.println("There were " + count + " stock products with less than " + minimum + " items\n");
+        return lowStock;
+    }
+    
 }
