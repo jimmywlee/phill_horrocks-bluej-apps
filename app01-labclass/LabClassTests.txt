@@ -1,25 +1,31 @@
-TASK 1
-------
 LabClass co452Lab = new LabClass(3);
-Student student1 = new Student("Phill Horrocks", "10010101");
-Student student2 = new Student("Terry Blob", "10019767");
-Student student3 = new Student("John Doe", "1862756243");
-co452lab.setTime("Tuesday 29th September 2020");
-co452lab.setRoom("G100");
-co452lab.setInstructor("Nicholas Day");
+co452Lab.setInstructor("Nicholas Day");
+co452Lab.setRoom("G100");
+co452Lab.setTime("Tuesday 29th September 2020");
+Student student1 = new Student("Phill Horrocks", "100170355");
+Student student2 = new Student("James Bond", "98551761");
+Student student3 = new Student("Harry Enfield", "7631354162");
+Course course1 = new Course("G400", "Computing");
+student1.addCourse(course1);
+student2.addCourse(course1);
+student3.addCourse(course1);
+student1.getCredits()
+    returned int 0
 student1.addCredits(20);
 student2.addCredits(20);
 student3.addCredits(20);
-student1.changeName("Mister Ed");
-
-TASK 2
-------
-LabClass labClass1 = new LabClass(1);
-Student student1 = new Student("Phill Horrocks", "100170355");
-Course course1 = new Course("Computing", "G400");
-student1.addCourse(course1);
-course1.print();
-course Computing ID G400
+student3.changeName("Harrington Enfield");
 student1.print();
-Phill Horrocks, student ID: 100170355, credits: 0
-course Computing ID G400
+Phill Horrocks, student ID: 100170355, credits: 20
+course G400 ID Computing
+student2.print();
+James Bond, student ID: 98551761, credits: 20
+course G400 ID Computing
+student3.print();
+Harrington Enfield, student ID: 7631354162, credits: 20
+course G400 ID Computing
+course1.print();
+course G400 ID Computing
+co452Lab.printList();
+Lab class Tuesday 29th September 2020
+Instructor: Nicholas Day   Room: G100
