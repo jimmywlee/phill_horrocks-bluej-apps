@@ -1,0 +1,175 @@
+StockManager stcok = new StockManager();
+StockDemo stockDem1 = new StockDemo(stcok);
+stockDem1.runDemo();
+
+*******************************
+  Products Management System
+     by Derek Peacock 
+*******************************
+
+100: Apple iPhone 11 stock level: 0
+101: Samsung Galaxy S10 stock level: 0
+102: Samsung Galaxy S20 stock level: 0
+103: Gogle Pixel 4A stock level: 0
+104: Motorola G8 Power Lite stock level: 0
+105: Motorola G8 Power stock level: 0
+106: Huawei Mate 30 Pro stock level: 0
+107: Huawei Mate Xs 5G stock level: 0
+108: Sony Xperia 5 stock level: 0
+109: Apple iPhone 12 stock level: 0
+
+
+100: Apple iPhone 11 stock level: 0
+    ** Re-Stocked by 5 ***
+100: Apple iPhone 11 stock level: 5
+
+
+101: Samsung Galaxy S10 stock level: 0
+    ** Re-Stocked by 4 ***
+101: Samsung Galaxy S10 stock level: 4
+
+
+102: Samsung Galaxy S20 stock level: 0
+    ** Re-Stocked by 1 ***
+102: Samsung Galaxy S20 stock level: 1
+
+
+103: Gogle Pixel 4A stock level: 0
+    ** Re-Stocked by 1 ***
+103: Gogle Pixel 4A stock level: 1
+
+
+104: Motorola G8 Power Lite stock level: 0
+    ** Re-Stocked by 3 ***
+104: Motorola G8 Power Lite stock level: 3
+
+
+105: Motorola G8 Power stock level: 0
+    ** Re-Stocked by 5 ***
+105: Motorola G8 Power stock level: 5
+
+
+106: Huawei Mate 30 Pro stock level: 0
+    ** Re-Stocked by 3 ***
+106: Huawei Mate 30 Pro stock level: 3
+
+
+107: Huawei Mate Xs 5G stock level: 0
+    ** Re-Stocked by 1 ***
+107: Huawei Mate Xs 5G stock level: 1
+
+
+108: Sony Xperia 5 stock level: 0
+    ** Re-Stocked by 3 ***
+108: Sony Xperia 5 stock level: 3
+
+
+*******************************
+  Products Management System
+     by Derek Peacock 
+*******************************
+
+100: Apple iPhone 11 stock level: 5
+101: Samsung Galaxy S10 stock level: 4
+102: Samsung Galaxy S20 stock level: 1
+103: Gogle Pixel 4A stock level: 1
+104: Motorola G8 Power Lite stock level: 3
+105: Motorola G8 Power stock level: 5
+106: Huawei Mate 30 Pro stock level: 3
+107: Huawei Mate Xs 5G stock level: 1
+108: Sony Xperia 5 stock level: 3
+109: Apple iPhone 12 stock level: 0
+
+
+*******************************
+  Products Management System
+     by Derek Peacock 
+*******************************
+
+100: Apple iPhone 11 stock level: 5
+101: Samsung Galaxy S10 stock level: 4
+102: Samsung Galaxy S20 stock level: 1
+103: Gogle Pixel 4A stock level: 1
+104: Motorola G8 Power Lite stock level: 3
+105: Motorola G8 Power stock level: 5
+106: Huawei Mate 30 Pro stock level: 3
+107: Huawei Mate Xs 5G stock level: 1
+108: Sony Xperia 5 stock level: 3
+109: Apple iPhone 12 stock level: 0
+
+Selling Product: Order Quantity = 6
+100: Apple iPhone 11 stock level: 5
+  5 items sold!
+
+Selling Product: Order Quantity = 2
+101: Samsung Galaxy S10 stock level: 4
+  2 items sold!
+
+Selling Product: Order Quantity = 6
+102: Samsung Galaxy S20 stock level: 1
+  1 items sold!
+
+Selling Product: Order Quantity = 4
+103: Gogle Pixel 4A stock level: 1
+  1 items sold!
+
+Selling Product: Order Quantity = 4
+104: Motorola G8 Power Lite stock level: 3
+  3 items sold!
+
+Selling Product: Order Quantity = 4
+105: Motorola G8 Power stock level: 5
+  4 items sold!
+
+Selling Product: Order Quantity = 3
+106: Huawei Mate 30 Pro stock level: 3
+  3 items sold!
+
+Selling Product: Order Quantity = 2
+107: Huawei Mate Xs 5G stock level: 1
+  1 items sold!
+
+Selling Product: Order Quantity = 6
+108: Sony Xperia 5 stock level: 3
+  3 items sold!
+
+
+*******************************
+  Products Management System
+     by Derek Peacock 
+*******************************
+
+100: Apple iPhone 11 stock level: 0
+101: Samsung Galaxy S10 stock level: 2
+102: Samsung Galaxy S20 stock level: 0
+103: Gogle Pixel 4A stock level: 0
+104: Motorola G8 Power Lite stock level: 0
+105: Motorola G8 Power stock level: 1
+106: Huawei Mate 30 Pro stock level: 0
+107: Huawei Mate Xs 5G stock level: 0
+108: Sony Xperia 5 stock level: 0
+109: Apple iPhone 12 stock level: 0
+
+
+*******************************
+  Products Management System
+     by Derek Peacock 
+*******************************
+
+100: Apple iPhone 11 stock level: 0
+101: Samsung Galaxy S10 stock level: 2
+102: Samsung Galaxy S20 stock level: 0
+103: Gogle Pixel 4A stock level: 0
+104: Motorola G8 Power Lite stock level: 0
+105: Motorola G8 Power stock level: 1
+106: Huawei Mate 30 Pro stock level: 0
+107: Huawei Mate Xs 5G stock level: 0
+108: Sony Xperia 5 stock level: 0
+109: Apple iPhone 12 stock level: 0
+
+
+ Product ID 102 REMOVED!
+
+103: Gogle Pixel 4A stock level: 0
+***RENAMED***
+103: Google Pixel 4A stock level: 0
