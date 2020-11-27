@@ -43,14 +43,18 @@ public class StockManager
         
         if(product == null)
         {
-            System.out.println("\n Product ID" + id + " not found! \n"); 
+            System.out.println();
+            System.out.println("Product ID " + id + " not found"); 
+            System.out.println();
         }
         else
         {
-            System.out.println("\n" + product);
+            System.out.println();
+            System.out.println(product);
             product.increaseQuantity(amount);
             System.out.println("=-= Re-Stocked by " + amount + " =-=");
-            System.out.println(product + "\n");
+            System.out.println(product);
+            System.out.println();
         }
     }
     
@@ -80,7 +84,8 @@ public class StockManager
                 product.sellOne();
             }
             
-            System.out.println("  " + numberSold + " products sold\n");
+            System.out.println("### " + numberSold + " products sold");
+            System.out.println();
         }
     }
     
@@ -92,9 +97,10 @@ public class StockManager
     public Product findProductByID(int id)
     {
         int index = 0;
-        boolean found = false;
         Product product = null;
+        boolean found = false;
         
+        // while-loop better than for
         while(!found && index < stock.size())
         {
            product = stock.get(index);
@@ -108,10 +114,17 @@ public class StockManager
         return product;
     }
     
+    /**
+     * Search for a product using text. Show items plus number of items found.
+     */
     public void searchProducts(String searchText)
     {
         int counter = 0;
-        System.out.println("\nSearching for " + searchText + "\n");
+        System.out.println();
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+        System.out.println("Searching for " + searchText + "");
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+        System.out.println();
         
         for(Product product : stock)
         {
@@ -122,7 +135,9 @@ public class StockManager
             }
         }
         
-        System.out.println("\n" + counter + " products contain " + searchText + " in their title\n");
+        System.out.println();
+        System.out.println(counter + " products contain " + searchText + " in their title");
+        System.out.println();
     }
     
     /**
@@ -132,7 +147,7 @@ public class StockManager
     {
        System.out.println("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
        System.out.println("=-= The Horrocks Stock System =-=");
-       System.out.println("=-= by Phill Horrocks         =-=");
+       System.out.println("=-=       *** BASIC ***       =-=");
        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
        
         for(Product product : stock)
@@ -180,7 +195,9 @@ public class StockManager
     {
        ArrayList<Product> lowStock = printLowStockProducts(minimum);
        
-       System.out.println("\nRe-Stocking to a minimum level of " + minimum + "\n");
+       System.out.println();
+       System.out.println("Restock to a minimum level of " + minimum);
+       System.out.println();
                           
        for(Product product : lowStock)
        {
@@ -198,7 +215,9 @@ public class StockManager
         
         if(product == null)
         {
-            System.out.println("\n Product ID " + id + " NOT FOUND!\n");
+            System.out.println();
+            System.out.println(" Product ID " + id + " NOT FOUND");
+            System.out.println();
         }
         else
         {
@@ -207,6 +226,9 @@ public class StockManager
         }
     }
     
+    /**
+     * Rename a product by ID and display error if ID not found
+     */
     public void renameProduct(int id, String newName)
     {
         Product product = findProductByID(id);

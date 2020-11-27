@@ -65,6 +65,9 @@ public class StockDemo
         manager.addProduct(new Product(id,"Apple iPhone SE"));
     }
     
+    /**
+     * Run all the methods necessary to show the program works, in sequence.
+     */
     public void executeDemo()
     {
        // Print all current products and stock
@@ -92,23 +95,25 @@ public class StockDemo
        manager.searchProducts("Samsung");
     }
     
+    /**
+     * Show the StockManager can accept random delivery quantities
+     */
     private void demoDeliverProducts()
     {
        for(int id = FIRST_ITEM_ID; id < LAST_ITEM_ID; id++)
        {
-           int quantity = rnd.nextInt(6) + 1; // random qty between 1 & 6 -- ensure at least 1
+           int quantity = rnd.nextInt(10) + 1; // random qty between 1 & 10 -- ensure at least 1
            manager.receiveStock(id, quantity);
        }
     }
    
-   
     /**
-     * Demonstrate that the StockManager can sell different quantities of all of the products
+     * Show that the StockManager can sell random quantities of all of the products
      * 
      */
     private void demoSellProducts()
     {
-        manager.printAllProducts();
+        // manager.printAllProducts();
         
         for(int id = FIRST_ITEM_ID; id < LAST_ITEM_ID; id++ )
         {

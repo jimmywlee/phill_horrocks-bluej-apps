@@ -136,14 +136,49 @@ public class TicketMachine
     /**
      * This is the Coin Enum method.
      * I tried it to test if it works - it does (and documented)
-     * Switch method more elegant IMHO. Just saying.
+     * now commented out due to updated method
      */
-    public void insertCoin(Coin coin)
+    //balanceUpdate(selectCoin.getValue());
+    //System.out.println("You just inserted: " + selectCoin.getValue());
+    //}
+   
+    /**
+     * This is a 'switch' method. This works by testing
+     * values against a pre-determined list and breaking
+     * out of the switch if the value is matched. If a user
+     * passes an incorrect value in, they will get an error
+     * message.
+     */
+    
+    /**
+     * Please enter a coin value: 10, 20, 100 or 200
+     */    
+    public void insertCoinSwitch (int coinValue)
     {
-        balanceUpdate(coin.getValue());
-        System.out.println("You just inserted: " + coin.getValue());
-    }
+        switch(coinValue){
+            case 10: balance = balance + coinValue;
+            System.out.println("10 inserted");
+            break;
         
+            case 20: balance = balance + coinValue;
+            System.out.println("20 inserted");
+            break;
+        
+            case 100: balance = balance + coinValue;
+            System.out.println("100 inserted");
+            break;
+        
+            case 200: balance = balance + coinValue;
+            System.out.println("200 inserted");
+            break;
+        
+            //Error message
+            default:
+            System.out.println("I'm afraid "+coinValue+" is not valid. Valid coins are 10, 20, 100 & 200. Please try again.");
+        }
+    }
+
+    
     /**
      * Print a ticket if enough money has been inserted, and
      * reduce the current balance by the ticket price. Print
@@ -190,3 +225,4 @@ public class TicketMachine
         return amountToRefund;
     }
 }
+        
