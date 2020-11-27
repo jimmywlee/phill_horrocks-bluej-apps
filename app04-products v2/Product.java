@@ -47,7 +47,7 @@ public class Product
     /**
      * @return The quantity in stock.
      */
-    public int getQuantity()
+    public int getQty()
     {
         return quantity;
     }

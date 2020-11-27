@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class Automate here.
+ * Testing automation to auto-create a StockManager object and StockDemo object to save all the right clicking!
  *
  * @author Phill Horrocks
  * @version 0.1
@@ -14,5 +14,6 @@ public class Automate
     {
         manager = new StockManager();
         demo = new StockDemo(manager);
+        demo.executeDemo();
     }
 }
