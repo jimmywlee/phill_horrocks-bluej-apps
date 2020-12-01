@@ -50,10 +50,10 @@ public class StockManager
         else
         {
             System.out.println();
-            System.out.println(product);
+            System.out.println("Current stock for: "+product);
             product.increaseQuantity(amount);
             System.out.println("=-= Re-Stocked by " + amount + " =-=");
-            System.out.println(product);
+            System.out.println("New stock for:" +product);
             System.out.println();
         }
     }
@@ -70,7 +70,7 @@ public class StockManager
         
         if(product != null) 
         {
-            System.out.println("Selling Product: Order Quantity = " + quantity);
+            //System.out.println("Selling Product: Order Quantity = " + quantity);
             printProduct(id);
 
             int numberSold = quantity;
@@ -216,13 +216,14 @@ public class StockManager
         if(product == null)
         {
             System.out.println();
-            System.out.println(" Product ID " + id + " NOT FOUND");
+            System.out.println("### Product ID " + id + " not found - please try again");
             System.out.println();
         }
         else
         {
             stock.remove(product);
-            System.out.println("\n Product ID " + id + " REMOVED!\n");            
+            System.out.println("### Product ID " + id + " removed");
+            System.out.println();
         }
     }
     

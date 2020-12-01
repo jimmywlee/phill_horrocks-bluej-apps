@@ -70,28 +70,51 @@ public class StockDemo
      */
     public void executeDemo()
     {
+       System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+       System.out.println("=-= AUTOMATED STOCK DEMO ROUTINE V1.0 =-=");
+       System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+       System.out.println();
+        
        // Print all current products and stock
+       System.out.println();
+       System.out.println("=-= PRINT ALL PRODUCTS =-=");
+       System.out.println();
        manager.printAllProducts();
        
        // Deliver random qty of stock
+       System.out.println();
+       System.out.println("=-= RECIEVE SOME NEW STOCK =-=");
+       System.out.println();
        demoDeliverProducts();
        
        // Display all the stock after delivery
        manager.printAllProducts();
        
        // Sell random qty of products
+       System.out.println();
+       System.out.println("=-= SELL SOME STOCK =-=");
+       System.out.println();
        demoSellProducts();
        
        // Display all the stock after selling
        manager.printAllProducts();
        
        // Remove a product from the array
+       System.out.println();
+       System.out.println("=-= REMOVE A PRODUCT =-=");
+       System.out.println();
        manager.removeProduct(109);
        
        // Correct mis-spelled stock item
+       System.out.println();
+       System.out.println("=-= RENAME A PRODUCT =-=");
+       System.out.println();
        manager.renameProduct(105, "Xiaomi Redmi 9A");
        
        // Search the product list by text matching 'Samsung'
+       System.out.println();
+       System.out.println("=-= SEARCH FOR A PRODUCT =-=");
+       System.out.println();
        manager.searchProducts("Samsung");
     }
     
@@ -100,7 +123,7 @@ public class StockDemo
      */
     private void demoDeliverProducts()
     {
-       for(int id = FIRST_ITEM_ID; id < LAST_ITEM_ID; id++)
+       for(int id = FIRST_ITEM_ID; id <= LAST_ITEM_ID; id++)
        {
            int quantity = rnd.nextInt(10) + 1; // random qty between 1 & 10 -- ensure at least 1
            manager.receiveStock(id, quantity);
@@ -115,7 +138,7 @@ public class StockDemo
     {
         // manager.printAllProducts();
         
-        for(int id = FIRST_ITEM_ID; id < LAST_ITEM_ID; id++ )
+        for(int id = FIRST_ITEM_ID; id <= LAST_ITEM_ID; id++ )
         {
             int quantity = rnd.nextInt(6) + 1;
             manager.sellProduct(id, quantity);

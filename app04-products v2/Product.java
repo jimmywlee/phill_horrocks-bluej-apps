@@ -74,8 +74,7 @@ public class Product
         }
         else 
         {
-            System.out.println("Attempt to restock " + name +
-                               " with a non-positive amount: " + amount);
+            System.out.println("Error: Cannot re-stock " + name + " with zero: " + amount);
         }
     }
 
@@ -93,7 +92,7 @@ public class Product
         else 
         {
             System.out.println(
-                "Attempt to sell an out of stock item: " + id + ":" + name);
+                "Error: Item out of stock: " + id + ":" + name);
             
                 return false;
         }

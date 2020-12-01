@@ -1,0 +1,187 @@
+Automate.main();
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= AUTOMATED STOCK DEMO ROUTINE V1.0 =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+=-= PRINT ALL PRODUCTS =-=
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 0
+103: Samsung Galaxy S20 stock level: 0
+104: Gogle Pixel 5 stock level: 0
+105: Xiami Redmi 9A stock level: 0
+106: Xiaomi Mi 10 Lite stock level: 0
+107: Poco F2 Pro stock level: 0
+108: Poco M3 stock level: 0
+109: Apple iPhone 11 Pro Max stock level: 0
+110: Apple iPhone SE stock level: 0
+
+
+=-= RECIEVE SOME NEW STOCK =-=
+
+
+Current stock for: 101: Samsung Galaxy S10 5G stock level: 0
+=-= Re-Stocked by 4 =-=
+New stock for:101: Samsung Galaxy S10 5G stock level: 4
+
+
+Current stock for: 102: Samsung Galaxy NOTE 20 stock level: 0
+=-= Re-Stocked by 5 =-=
+New stock for:102: Samsung Galaxy NOTE 20 stock level: 5
+
+
+Current stock for: 103: Samsung Galaxy S20 stock level: 0
+=-= Re-Stocked by 8 =-=
+New stock for:103: Samsung Galaxy S20 stock level: 8
+
+
+Current stock for: 104: Gogle Pixel 5 stock level: 0
+=-= Re-Stocked by 7 =-=
+New stock for:104: Gogle Pixel 5 stock level: 7
+
+
+Current stock for: 105: Xiami Redmi 9A stock level: 0
+=-= Re-Stocked by 4 =-=
+New stock for:105: Xiami Redmi 9A stock level: 4
+
+
+Current stock for: 106: Xiaomi Mi 10 Lite stock level: 0
+=-= Re-Stocked by 7 =-=
+New stock for:106: Xiaomi Mi 10 Lite stock level: 7
+
+
+Current stock for: 107: Poco F2 Pro stock level: 0
+=-= Re-Stocked by 9 =-=
+New stock for:107: Poco F2 Pro stock level: 9
+
+
+Current stock for: 108: Poco M3 stock level: 0
+=-= Re-Stocked by 10 =-=
+New stock for:108: Poco M3 stock level: 10
+
+
+Current stock for: 109: Apple iPhone 11 Pro Max stock level: 0
+=-= Re-Stocked by 8 =-=
+New stock for:109: Apple iPhone 11 Pro Max stock level: 8
+
+
+Current stock for: 110: Apple iPhone SE stock level: 0
+=-= Re-Stocked by 9 =-=
+New stock for:110: Apple iPhone SE stock level: 9
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 4
+102: Samsung Galaxy NOTE 20 stock level: 5
+103: Samsung Galaxy S20 stock level: 8
+104: Gogle Pixel 5 stock level: 7
+105: Xiami Redmi 9A stock level: 4
+106: Xiaomi Mi 10 Lite stock level: 7
+107: Poco F2 Pro stock level: 9
+108: Poco M3 stock level: 10
+109: Apple iPhone 11 Pro Max stock level: 8
+110: Apple iPhone SE stock level: 9
+
+
+=-= SELL SOME STOCK =-=
+
+101: Samsung Galaxy S10 5G stock level: 4
+### 4 products sold
+
+102: Samsung Galaxy NOTE 20 stock level: 5
+### 4 products sold
+
+103: Samsung Galaxy S20 stock level: 8
+### 3 products sold
+
+104: Gogle Pixel 5 stock level: 7
+### 3 products sold
+
+105: Xiami Redmi 9A stock level: 4
+### 3 products sold
+
+106: Xiaomi Mi 10 Lite stock level: 7
+### 1 products sold
+
+107: Poco F2 Pro stock level: 9
+### 4 products sold
+
+108: Poco M3 stock level: 10
+### 6 products sold
+
+109: Apple iPhone 11 Pro Max stock level: 8
+### 2 products sold
+
+110: Apple iPhone SE stock level: 9
+### 4 products sold
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 1
+103: Samsung Galaxy S20 stock level: 5
+104: Gogle Pixel 5 stock level: 4
+105: Xiami Redmi 9A stock level: 1
+106: Xiaomi Mi 10 Lite stock level: 6
+107: Poco F2 Pro stock level: 5
+108: Poco M3 stock level: 4
+109: Apple iPhone 11 Pro Max stock level: 6
+110: Apple iPhone SE stock level: 5
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 1
+103: Samsung Galaxy S20 stock level: 5
+104: Gogle Pixel 5 stock level: 4
+105: Xiami Redmi 9A stock level: 1
+106: Xiaomi Mi 10 Lite stock level: 6
+107: Poco F2 Pro stock level: 5
+108: Poco M3 stock level: 4
+109: Apple iPhone 11 Pro Max stock level: 6
+110: Apple iPhone SE stock level: 5
+
+
+=-= REMOVE A PRODUCT =-=
+
+### Product ID 109 removed
+
+
+=-= RENAME A PRODUCT =-=
+
+105: Xiami Redmi 9A stock level: 1
+=-= Item Renamed =-=
+105: Xiaomi Redmi 9A stock level: 1
+
+=-= SEARCH FOR A PRODUCT =-=
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Searching for Samsung
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 1
+103: Samsung Galaxy S20 stock level: 5
+
+3 products contain Samsung in their title
+
