@@ -116,6 +116,12 @@ public class StockDemo
        System.out.println("=-= SEARCH FOR A PRODUCT =-=");
        System.out.println();
        manager.searchProducts("Samsung");
+       
+       // Print all products with less than 2 in stock
+       System.out.println();
+       System.out.println("=-= PRODUCTS WITH LESS THAN 2 IN STOCK =-=");
+       System.out.println();
+       manager.printLowStockProducts(2);
     }
     
     /**
