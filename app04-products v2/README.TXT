@@ -131,3 +131,9 @@ expression:
     s1.equals(s2)
 
 More detail on this can be found in Chapter 5, page 115.
+
+Ammended
+========
+
+Right-click on the 'Automate' class and invoke it's Main method in order to
+execute the full range of demo tests.
