@@ -81,7 +81,7 @@ public class StockManager
             
             for(int count = 0; count < numberSold; count++)
             {
-                product.sellOne();
+                product.sellItem();
             }
             
             System.out.println("### " + numberSold + " products sold");
