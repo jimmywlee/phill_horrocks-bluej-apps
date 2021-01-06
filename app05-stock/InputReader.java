@@ -1,4 +1,4 @@
-import java.util.HashSet;
+//import java.util.HashSet;
 import java.util.Scanner;
 
 /**
@@ -25,14 +25,27 @@ public class InputReader
      * and return it as a String.
      *
      * @return  A String typed by the user.
+     * NOTE: This needs extra logic to break out of the input if
+     * a blank input is detected. At the moment, this just states
+     * that the input is empty
      */
     public String getString()
     {
+        boolean isValidEntry = false; // testing
+        
         System.out.print("> ");         // print prompt
         String inputLine = reader.nextLine();
+        if(inputLine.isBlank() || inputLine.isEmpty())
+        {
+            System.out.println("Input value is empty");
+        }
+        
         return inputLine;
     }
     
+    /**
+     * Test method for separate integer input - NOT USED
+     */
     public int getInt()
     {
         System.out.print("> ");         // print prompt

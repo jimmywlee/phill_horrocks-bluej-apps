@@ -109,7 +109,7 @@ public class StockApp
     private void removeProduct()
     {
         System.out.println(" Remove a product");
-        System.out.println();
+        System.out.println();      
         
         System.out.println("Please enter the ID of the product to remove");
         String idNumber = reader.getString();
@@ -220,14 +220,14 @@ public class StockApp
     }
     
     /**
-     * Print all items low in stock (0 qty)
+     * Print all items low in stock (2 qty)
      */
     private void printLowStock()
     {
         System.out.println(" Print low stock");
         System.out.println();
         
-        manager.printLowStockProducts(0); // Low stock value set to zero        
+        manager.printLowStockProducts(2); // Low stock value set to zero        
     }
     
     /**
@@ -243,22 +243,6 @@ public class StockApp
         int qty = Integer.parseInt(stockQty);
         
         manager.restockLowProducts(qty);
-    }
-        
-    
-    private Product getProduct()
-    {
-        String prompt = "Please enter a product ID: ";
-        String idNumber = reader.getString();
-        int id = Integer.parseInt(idNumber);
-        
-        Product product = manager.findProductByID(id);
-        
-        if (product == null)
-        {
-            System.out.println("  Sorry, product ID " + id + " cannot be found, please try again");
-        }
-        return product;
     }
     
     /**
