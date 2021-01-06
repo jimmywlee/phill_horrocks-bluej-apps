@@ -1,3 +1,270 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 111
+Adding new product
+Please enter name of product
+> Samsung Galaxy S10
+
+You added item ID 111: Samsung Galaxy S10 stock level: 0 with ID: 111
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 112
+Adding new product
+Please enter name of product
+> Samsung Galaxy S20
+
+You added item ID 112: Samsung Galaxy S20 stock level: 0 with ID: 112
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 113
+Adding new product
+Please enter name of product
+> Apple iPhone 11
+
+You added item ID 113: Apple iPhone 11 stock level: 0 with ID: 113
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 114
+Adding new product
+Please enter name of product
+> Apple iPhone 12
+
+You added item ID 114: Apple iPhone 12 stock level: 0 with ID: 114
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 115
+Adding new product
+Please enter name of product
+> Motorla G9 Plus
+
+You added item ID 115: Motorla G9 Plus stock level: 0 with ID: 115
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 103
+Error! Item already exists
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 1
+Add new product
+
+Please enter the ID of the new product
+> 116
+Adding new product
+Please enter name of product
+> 
+Input value is empty
+
+You added item ID 116:  stock level: 0 with ID: 116
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 2
+ Remove a product
+
+Please enter the ID of the product to remove
+> 203
+Item does not exist
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 3
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 0
+103: Samsung Galaxy S20 stock level: 0
+104: Gogle Pixel 5 stock level: 0
+105: Xiami Redmi 9A stock level: 0
+106: Xiaomi Mi 10 Lite stock level: 0
+107: Poco F2 Pro stock level: 0
+108: Poco M3 stock level: 0
+109: Apple iPhone 11 Pro Max stock level: 0
+110: Apple iPhone SE stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+113: Apple iPhone 11 stock level: 0
+114: Apple iPhone 12 stock level: 0
+115: Motorla G9 Plus stock level: 0
+116:  stock level: 0
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 4
+ Deliver products
+
+Please enter the ID of the product to deliver
+> 112
+Please enter the qty of the product to deliver
+> 8
+
+Current stock for: 112: Samsung Galaxy S20 stock level: 0
+=-= Re-Stocked by 8 =-=
+New stock for:112: Samsung Galaxy S20 stock level: 8
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
     App05: by Phill Horrocks   
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -79,8 +346,73 @@ Please enter the qty of the product to sell
 110: Apple iPhone SE stock level: 0
 111: Samsung Galaxy S10 stock level: 0
 112: Samsung Galaxy S20 stock level: 6
+113: Apple iPhone 11 stock level: 0
 114: Apple iPhone 12 stock level: 0
-115: Motorola G9 Plus stock level: 0
+115: Motorla G9 Plus stock level: 0
+116:  stock level: 0
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 5
+ Sell products
+
+Please enter the ID of the product to sell
+> 112
+Please enter the qty of the product to sell
+> 10
+112: Samsung Galaxy S20 stock level: 6
+### 6 products sold
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 3
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 0
+103: Samsung Galaxy S20 stock level: 0
+104: Gogle Pixel 5 stock level: 0
+105: Xiami Redmi 9A stock level: 0
+106: Xiaomi Mi 10 Lite stock level: 0
+107: Poco F2 Pro stock level: 0
+108: Poco M3 stock level: 0
+109: Apple iPhone 11 Pro Max stock level: 0
+110: Apple iPhone SE stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+113: Apple iPhone 11 stock level: 0
+114: Apple iPhone 12 stock level: 0
+115: Motorla G9 Plus stock level: 0
 116:  stock level: 0
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -138,7 +470,7 @@ Searching for Samsung
 102: Samsung Galaxy NOTE 20 stock level: 0
 103: Samsung Galaxy S20 stock level: 0
 111: Samsung Galaxy S10 stock level: 0
-112: Samsung Galaxy S20 stock level: 6
+112: Samsung Galaxy S20 stock level: 0
 
 5 products contain Samsung in their title
 
@@ -175,11 +507,13 @@ Searching for Samsung
 109: Apple iPhone 11 Pro Max stock level: 0
 110: Apple iPhone SE stock level: 0
 111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 0
+113: Apple iPhone 11 stock level: 0
 114: Apple iPhone 12 stock level: 0
-115: Motorola G9 Plus stock level: 0
+115: Motorla G9 Plus stock level: 0
 116:  stock level: 0
 
-There are currently 14 items with less than 2 in stock
+There are currently 16 items with less than 2 in stock
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   Stock Management Application 
