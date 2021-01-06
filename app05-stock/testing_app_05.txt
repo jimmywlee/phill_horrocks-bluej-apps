@@ -1,0 +1,199 @@
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 4
+ Deliver products
+
+Please enter the ID of the product to deliver
+> 112
+Please enter the qty of the product to deliver
+> -4
+Sorry you cannot deliver that amount
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 5
+ Sell products
+
+Please enter the ID of the product to sell
+> 112
+Please enter the qty of the product to sell
+> 2
+112: Samsung Galaxy S20 stock level: 8
+### 2 products sold
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 3
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= The Horrocks Stock System =-=
+=-=       *** BASIC ***       =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 0
+103: Samsung Galaxy S20 stock level: 0
+104: Gogle Pixel 5 stock level: 0
+105: Xiami Redmi 9A stock level: 0
+106: Xiaomi Mi 10 Lite stock level: 0
+107: Poco F2 Pro stock level: 0
+108: Poco M3 stock level: 0
+109: Apple iPhone 11 Pro Max stock level: 0
+110: Apple iPhone SE stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 6
+114: Apple iPhone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+116:  stock level: 0
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 5
+ Sell products
+
+Please enter the ID of the product to sell
+> 112
+Please enter the qty of the product to sell
+> -2
+Sorry you cannot sell that amount
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 6
+ Search products
+
+ Please enter your search term: 
+> Samsung
+ Displaying items matching Samsung
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Searching for Samsung
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 0
+103: Samsung Galaxy S20 stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+112: Samsung Galaxy S20 stock level: 6
+
+5 products contain Samsung in their title
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 7
+ Print low stock
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-= All products low in stock =-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+101: Samsung Galaxy S10 5G stock level: 0
+102: Samsung Galaxy NOTE 20 stock level: 0
+103: Samsung Galaxy S20 stock level: 0
+104: Gogle Pixel 5 stock level: 0
+105: Xiami Redmi 9A stock level: 0
+106: Xiaomi Mi 10 Lite stock level: 0
+107: Poco F2 Pro stock level: 0
+108: Poco M3 stock level: 0
+109: Apple iPhone 11 Pro Max stock level: 0
+110: Apple iPhone SE stock level: 0
+111: Samsung Galaxy S10 stock level: 0
+114: Apple iPhone 12 stock level: 0
+115: Motorola G9 Plus stock level: 0
+116:  stock level: 0
+
+There are currently 14 items with less than 2 in stock
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  Stock Management Application 
+    App05: by Phill Horrocks   
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1.   Add a new product
+2.   Remove a product
+3.   Print all producs
+4.   Deliver products
+5.   Sell products
+6.   Search for a product
+7.   Display items low in stock
+8.   Restock products
+9.   Quit the application
+
+> 9
