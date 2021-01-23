@@ -1,0 +1,141 @@
+
+
+//START ROOM
+description =  
+"You awake, groggily, your vision blurred, eyes rolling around.\n"+
+"The piercing wailing of the ship’s alarm system is bringing\n"+
+"you round faster than your concussion would like. “WARNING: HULL\n"+
+"BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.\n"+
+"APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes\n"+
+"make out the flashing of the alarm lights and the warning\n"+
+"messages flashing on the ship’s main console. There is a\n"+
+"clock on the console, counting down the minutes. You pick\n"+
+"yourself up and manage to stagger to the ship’s console and\n"+
+"turn off the cacophonous noise of the alarm. Slowly, eye’s\n"+
+"still going in and out of focus, you bring up the ship’s\n"+
+"schematic and damage report on the computer. The damage report\n"+
+"states that the ship's quarters have sustained critical\n"+
+"damage and no life forms are being reported. Your crew is gone.\n"+
+"Just then, your suit reports a critical oxygen leak - your\n"+
+"oxygen tank has taken damage and is losing pressure fast.\n"+
+"The suit damage report states you have less than 2 minutes of\n"+
+"oxygen remaining. You realise you don’t have enough oxygen to\n"+
+"make it to the escape pod in time, unless of course you can\n"+
+"find replacement oxygen… and fast. Your only way out is north\n"+
+"to the navigation room. In the corner is an empty oxygen tank";
+
+
+
+// STAFFROOM
+description = 
+"in the staff room, chairs and tables are strewn around everywhere\n"+
+"making navigation difficult. There are a number of garments laying\n"+
+"around and in the corner, one in particular catches your eye, the\n"+
+"name tag reading Stark. Captain Stark’s jacket has a small key marked\n"+
+"'LAUNCH' in the chest pocket. The rest of the room seems to contain\n"+
+"nothing useful as you watch the timer tick down on the console screen\n"+
+"above, you decide you must act fast.";
+
+
+//ELECTRICAL
+description = 
+"in the electrical room, wires and steam currently block your path\n"+
+"back to the main ship but you see the engine room has been burst open,\n"+
+"possibly by one of your crewmates before they deserted the ship.";
+
+
+//MOBILE SERVICE SYSTEM
+description =  
+"in the Mobile Service System, normally, this is a dedicated area for\n"+
+"launching satellites into orbit or repairing damaged space vehicles.\n"+
+"Now, the arm which normally does this is broken and laying on its side\n"+
+"with its main manipulator torn off. There is nothing of use here";
+
+
+//COMMUNICATIONS
+description = 
+"in the communications room it is surprisingly unaffected by the\n"+
+"catastrophic event now signalling your death. Around the room\n"+
+"there are the now familiar console warnings and flashing red\n"+
+"alarm lights. Over near the main comms console you can see a\n"+
+"terminal which looks unlike the others. ";
+
+
+//MEDBAY
+description = 
+"in the medbay, medical computers, beds and equipment are in complete\n"+
+"disarray with the rooms various cupboards and storage contents emptied\n"+
+"everywhere. Through the mess, you can spot the emergency door to the\n"+
+"engine room, which is currently open with steam and sparks emitting from\n"+
+"the broken systems that lie beyond. On top of one of the upturned beds,\n"+
+"you can just make out the top of what looks like a yellow oxygen tank.\n"+
+"On the floor you spot an oxygen outlet";
+
+
+//ENGINE ROOM
+description = 
+"in the ship’s engine room. Here, the power source of the ship’s\n"+
+"propulsion system lies exposed, dangerously emitting arcs of\n"+
+"electricity between the core and the hull of the ship. Steam and\n"+
+"sparks are everywhere. There is no chance of repairing the warp\n"+
+"core as it’s too badly damaged. Time is running out and the warnings\n"+
+"are now showing ‘SYSTEMS CRITICAL’ on the engine room consoles...\n"+
+"There is a door marked 'Emergency Escape This Way' but the door which\n"+
+"which is normally open has been security locked and the door control\n"+
+"is asking for a passkey... Beyond the door you can see ladders\n"+
+"descending into the darkness...";
+
+
+//VENTILLATION SHAFT
+description = 
+"descending the ladders, you pathway is blocked and your only way\n"+
+"out is to go through a small ventillation shaft just behind you.\n"+
+"The shaft is claustrophic and the oxygen tank rattles and scrapes\n"+
+"its way along with you. Up ahead you can make out flashing red\n"+
+"alarm lights again.";
+
+
+//CORRIDOR
+description = 
+"in a corridor heading towards the main ship's reactor. The path to the\n"+
+"ladders ascending to the main parts of the ship are blocked at the\n"+
+"bottom, and your only way back is to the vent or to the reactor. Steam\n"+
+"and sparks fill the corridor making movement tricky. The faint voice of\n"+
+"the ship's computer once again announces that the ship systems are failing\n"+
+"and that crew members much abandon ship immediatly";
+
+
+//AIRLOCK - DIE
+description = 
+"You enter the ships airlock. Normally this is a safe area. However,\n"+
+"the ship's systems have been badly damaged and you find that the door\n"+
+"closes behind you. You press and press the control panel but it does\n"+
+"not respond. You cannot get back in. Your oxygen depletes and you die\n"+
+"a slow, cold agonising a death trapped in the airlock";
+
+
+//AIRLOCK - SURVIVE
+description = 
+"Today is your lucky day - normally, you'd have died a painful, cold\n"+
+"death in the icy grip of deep space, but, you had the good foresight\n"+
+"to collect the door key in the vent. You quickly notice the key colour\n"+
+"is the same as the airlock and you thrust the card into the reader.\n"+
+"You haul youself through the door and to safety. The door closes.";
+
+
+//DAMAGED POD
+description = 
+"in the second escape pod. It has been critically damaged and it's nose\n"+
+"has almost entirely been smashed off by high-speed debris. None of the\n"+
+"systems are operational - there is no chance of escape in this pod.";
+
+
+//PRIMARY POD
+description = 
+"in the Escape Pod. This is, by comparison to the rest of the ship,\n"+
+"is in unmarked condition and all of its systems seem to be intact.\n"+
+"Looking around, there are two pilot seats and enough extra seating\n"+
+"in the rear for 10 crew members to safely escape. You can see that\n"+
+"the computer is expecting an access key in order to engage and authorise\n"+
+"the launch sequence. You don’t have much time left. You must activate\n"+
+"the LAUNCH sequence in order to escape.";
