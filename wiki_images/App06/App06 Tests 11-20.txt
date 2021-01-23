@@ -1,0 +1,754 @@
+
+oon!
+
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are You awake, groggily, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's communications room
+>  go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 2 | Energy : 84 | Score:  0 | Oxygen: 96 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's medical bay
+>  go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 3 | Energy : 76 | Score:  0 | Oxygen: 94 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's engine room
+> go down
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 68 | Score:  0 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a ventillation shaft
+>  go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 5 | Energy : 60 | Score:  0 | Oxygen: 90 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a small connecting corridor
+>  go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 6 | Energy : 52 | Score:  0 | Oxygen: 88 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a large chamber
+> go east
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 7 | Energy : 44 | Score:  0 | Oxygen: 86 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's airlock
+ YOU HAVE DIED IN THE SHIP'S FAULTY AIRLOCK
+Thanks for playing our game. Hope to see you again soon!
+
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's communications room
+> take stimpack
+
+ You have taken the stimpack
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 87 | Score:  50 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: stimpack
+
+ You are  in the ship's communications room
+> eat stimpack
+> look
+ You are in the ship's communications room
+
+ You are in the communications room it is surprisingly unaffected by the
+catastrophic event now signalling your death. Around the room
+there are the now familiar console warnings and flashing red
+alarm lights. Over near the main comms console you can see a
+terminal which looks unlike the others. .
+
+ Exits: south north
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 2 | Energy : 89 | Score:  50 | Oxygen: 97 |
+ ----------------------------------------------------------------------
+
+ You are carrying: stimpack
+
+ You are  in the ship's medical bay
+> quit
+Thanks for playing our game. Hope to see you again soon!
+
+
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's communications room
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 2 | Energy : 84 | Score:  0 | Oxygen: 96 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's medical bay
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 3 | Energy : 76 | Score:  0 | Oxygen: 94 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's engine room
+> go down
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 68 | Score:  0 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a ventillation shaft
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 5 | Energy : 60 | Score:  0 | Oxygen: 90 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a small connecting corridor
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 6 | Energy : 52 | Score:  0 | Oxygen: 88 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a large chamber
+> go west
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 7 | Energy : 44 | Score:  0 | Oxygen: 86 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in ship's primary escape pod
+> launch
+You need the key! you remember Mr Stark had the key. 
+Maybe his jacket is still in the staffroom?
+
+
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's communications room
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 2 | Energy : 84 | Score:  0 | Oxygen: 96 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's medical bay
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 3 | Energy : 76 | Score:  0 | Oxygen: 94 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's engine room
+> go down
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 68 | Score:  0 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a ventillation shaft
+> look
+ You are in a ventillation shaft
+
+ You are descending the ladders, you pathway is blocked and your only way
+out is to go through a small ventillation shaft just behind you.
+The shaft is claustrophic and the oxygen tank rattles and scrapes
+its way along with you. Up ahead you can make out flashing red
+alarm lights again.
+
+ THERE IS A DOORKEY MYSTERIOUSLY ON THE GROUND
+
+ Exits: south up
+> take doorkey
+
+ You have taken the doorkey
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 58 | Score:  50 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in a ventillation shaft
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 5 | Energy : 50 | Score:  50 | Oxygen: 90 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in a small connecting corridor
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 6 | Energy : 42 | Score:  50 | Oxygen: 88 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in a large chamber
+> go west
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 7 | Energy : 34 | Score:  50 | Oxygen: 86 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in ship's primary escape pod
+> go east
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 8 | Energy : 26 | Score:  50 | Oxygen: 84 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in a large chamber
+> go east
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 9 | Energy : 18 | Score:  50 | Oxygen: 82 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in the ship's airlock
+Today is your lucky day - normally, you'd have died a painful, cold
+death in the icy grip of deep space, but, you had the good foresight
+to collect the door key in the vent. You quickly notice the key colour
+is the same as the airlock and you thrust the card into the reader.
+You haul yourself through the door and to safety. The door closes.
+
+
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> take tank
+
+ You have taken the tank
+
+
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's communications room
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 2 | Energy : 84 | Score:  0 | Oxygen: 96 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's medical bay
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 3 | Energy : 76 | Score:  0 | Oxygen: 94 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in the ship's engine room
+> go down
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 68 | Score:  0 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  in a ventillation shaft
+> look
+ You are in a ventillation shaft
+
+ You are descending the ladders, you pathway is blocked and your only way
+out is to go through a small ventillation shaft just behind you.
+The shaft is claustrophic and the oxygen tank rattles and scrapes
+its way along with you. Up ahead you can make out flashing red
+alarm lights again.
+
+ THERE IS A DOORKEY MYSTERIOUSLY ON THE GROUND
+
+ Exits: south up
+> take doorkey
+
+ You have taken the doorkey
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 58 | Score:  50 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: doorkey
+
+ You are  in a ventillation shaft
+> 
+
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 95 | Score:  50 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: tank
+
+ You are   inside the ship's navigation room
+ 
+ Welcome to The Abandoned Spaceship!
+ The Abandoned Spaceship is a new, incredibly exiting adventure game.
+ Please Type 'help' if you need any help!
+
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 0 | Energy : 100 | Score:  0 | Oxygen: 100 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the ship's navigation room
+
+ You are  groggy, your vision blurred, eyes rolling around.
+The piercing wailing of the ship’s alarm system is bringing
+you round faster than your concussion would like. “WARNING: HULL
+BREACH. WARNING: HULL BREACH. LIFE SUPPORT SYSTEMS CRITICAL.
+APPROXIMATE TIME TO OXYGEN DEPLETION 3 MINUTES”. Your eyes
+make out the flashing of the alarm lights and the warning
+messages flashing on the ship’s main console. There is a
+clock on the console, counting down the minutes. You pick
+yourself up and manage to stagger to the ship’s console and
+turn off the cacophonous noise of the alarm. Slowly, eye’s
+still going in and out of focus, you bring up the ship’s
+schematic and damage report on the computer. The damage report
+states that the ship's quarters have sustained critical
+damage and no life forms are being reported. Your crew is gone.
+Just then, your suit reports a critical oxygen leak - your
+oxygen tank has taken damage and is losing pressure fast.
+The suit damage report states you have less than 2 minutes of
+oxygen remaining. You realise you don’t have enough oxygen to
+make it to the escape pod in time, unless of course you can
+find replacement oxygen… and fast. Your only way out is north
+to the navigation room. In the corner is an empty oxygen tank.
+
+ There is an empty oxygen tank lying in the corner
+
+ Exits: east south north west
+> go north
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 92 | Score:  0 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: nothing!
+ You are  inside the staff room
+> look
+ You are inside the staff room
+
+ You are in the staff room, chairs and tables are strewn around everywhere
+making navigation difficult. There are a number of garments laying
+around and in the corner, one in particular catches your eye, the
+name tag reading Stark. Captain Stark’s jacket has a small key marked
+'LAUNCH' in the chest pocket. The rest of the room seems to contain
+nothing useful as you watch the timer tick down on the console screen
+above, you decide you must act fast..
+
+ There is a passkey marked Engine Room here.
+
+ Exits: south
+> take passkey
+
+ You have taken the passkey
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 1 | Energy : 82 | Score:  50 | Oxygen: 98 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  inside the staff room
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 2 | Energy : 74 | Score:  50 | Oxygen: 96 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are   inside the ship's navigation room
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 3 | Energy : 66 | Score:  50 | Oxygen: 94 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in the ship's communications room
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 4 | Energy : 58 | Score:  50 | Oxygen: 92 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in the ship's medical bay
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 5 | Energy : 50 | Score:  50 | Oxygen: 90 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in the ship's engine room
+> go down
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 6 | Energy : 42 | Score:  50 | Oxygen: 88 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in a ventillation shaft
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 7 | Energy : 34 | Score:  50 | Oxygen: 86 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in a small connecting corridor
+> go south
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 8 | Energy : 26 | Score:  50 | Oxygen: 84 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in a large chamber
+> go west
+
+ ----------------------------------------------------------------------
+ | Chris: | Move number: 9 | Energy : 18 | Score:  50 | Oxygen: 82 |
+ ----------------------------------------------------------------------
+
+ You are carrying: passkey
+
+ You are  in ship's primary escape pod
+Quick!Use the passkey!
+> launch
+You have used the key to be able to pull the lever
+You flash the passkey and slam that now opened button to get way away 
+from the collapsing ship! your life is saved!
+Thanks for playing our game. Hope to see you again soon!
